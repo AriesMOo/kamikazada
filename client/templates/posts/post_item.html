@@ -1,0 +1,15 @@
+<template name="postItem">
+  <div class="post">
+    <a href="#" class="upvote btn btn-default {{upvotedClass}}">▲</a>
+    <div class="post-content">
+      <h3><a href="{{url}}">{{title}}</a><span>{{domain}}</span></h3>
+      <p>
+        {{pluralize votes "Voto"}},
+        enviado por {{author}},
+        <a href="{{pathFor 'postPage'}}">{{commentsCount}} comentarios</a>
+        {{#if ownPost}}<a href="{{pathFor 'postEdit'}}">Editar</a>{{/if}}
+      </p>
+    </div>
+   <a href="{{pathFor 'postPage'}}" class="discuss btn btn-default">Comentar</a><!-- increible !! pilla el id del tiron el router buscará este _id en el lugar más lógico: el contexto de datos del ayudante {{pathFor 'postPage'}}, en otras palabras: this -->
+  </div>
+</template>

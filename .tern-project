@@ -1,0 +1,18 @@
+{
+  "libs": [
+    "reserved",
+    "browser",
+    "ecma5",
+    "browser",
+    "jquery",
+    "underscore"
+  ],
+  "loadEagerly": [],
+  "async": true,
+  "plugins": {
+    "requirejs": {},
+    "doc_comment": {},
+    "component": {},
+    "meteor": {}
+  }
+}

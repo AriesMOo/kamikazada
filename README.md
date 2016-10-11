@@ -1,2 +1,3 @@
 # kamikazada
-App con Christian para hacernos ricos ! :P
+App con Christian para tratar de hacer algo grande ! :) 
+Bootstraping project only.
